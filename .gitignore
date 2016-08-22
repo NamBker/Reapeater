@@ -1,0 +1,55 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+.bundle/
+*.tmproj
+build
+.idea
+nbproject/
+*.swp
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# the composer package lock file and install directory
+/composer.lock
+/fuel/vendor
+
+# any of the fuel packages installed by default
+/docs/
+/fuel/core/
+/fuel/packages/auth/
+/fuel/packages/email/
+/fuel/packages/oil/
+/fuel/packages/orm/
+/fuel/packages/parser/
+
+# dynamically generated files
+/fuel/app/logs/
+/fuel/app/cache/*/*
+/fuel/app/tmp/*/*
+fuel/app/files/*
+/fuel/app/config/crypt.php
+
+# migrations file
+/fuel/app/config/*/migrations.php
+
+# react
+/public/assets/js/repeater/node_modules/
+/public/assets/js/repeater/bundle.js
+/public/assets/js/repeater/bundle.min.js
+/public/assets/js/npm-debug.log
+
+/public/assets/img/picture/
+
+# development ignore
+/fuel/app/config/development/
+/vendor/
+
+# autocomplate
+autocomplete.php

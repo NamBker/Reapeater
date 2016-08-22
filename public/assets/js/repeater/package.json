@@ -1,0 +1,59 @@
+{
+  "name": "repeater",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Repeater application",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^1.1.1",
+    "history": "^3.0.0",
+    "moment": "^2.13.0",
+    "react": "~15.1.0",
+    "react-addons-create-fragment": "~15.1.0",
+    "react-addons-css-transition-group": "~15.1.0",
+    "react-chartjs": "^0.7.3",
+    "react-datepicker": "^0.27.0",
+    "react-dom": "~15.1.0",
+    "react-loading-indicator": "^0.2.1",
+    "react-maskedinput": "^3.2.0",
+    "react-paginate": "^2.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-router-redux": "^4.0.4",
+    "react-select": "^0.9.1",
+    "react-sortable-hoc": "0.0.3",
+    "react-tabs": "^0.5.5",
+    "react-toggle": "^2.1.0",
+    "react-tooltip": "=3.0.7",
+    "react-stonecutter": "^0.3.1",
+    "redux": "^3.1.2",
+    "redux-pagination": "0.0.1",
+    "redux-thunk": "^2.1.0",
+    "striptags": "^2.1.1",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0",
+    "browserify": "^11.2.0",
+    "babelify": "^6.3.0",
+    "uglifyjs": "^2.4.10"
+  },
+  "scripts": {
+    "start": "watchify -t --poll=100 -o ./bundle.js -v -d ./index.js",
+    "stage": "browserify . -t > ./bundle.js",
+    "build": "browserify . -t | uglifyjs -cm > ./bundle.min.js"
+  },
+  "author": "GMO",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "blacklist": [
+            "regenerator"
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,384 @@
+@charset "utf-8";
+/*白*/
+/*body{color:#333;}
+#wrapper{background:#fcfcfc;}
+.membership{background-image: linear-gradient(to bottom, #ff7500 0%, #ff6a00 100%);color:#fff;}
+.nav span.small{color:#ff7500;}
+.navTrigger span {background-color:#ff7500;}
+#header{border-bottom:#ccc 1px solid;}
+h1{background:#777;color:#fff;}
+h2{background:#ddd;color:#333;}
+h3{background:#eee;color:#333;}
+h4{background:#fafafa;color:#333;}
+.news h2{background:#ccc url(../img/news.png) 10px 8px no-repeat;}
+.footerNav h2{background:#ccc url(../img/footerMenu.png) 10px 12px no-repeat;}
+#header{background:#fff;}
+a:link,a:visited {color: #333;text-decoration:none;}
+ul.gblnvList li.close a{background:#fcfcfc;color:#333;}
+dd,.companyContents td,.shopContents td{background:#fff;}
+dl,.companyContents th,.shopContents th{background:#f2f2f2;}
+#pageTop a {background-color:#ccc;}
+.shopSearch,.coupon,.usrContents .square,.shopContents iframe,.shopListContents2 li a,.couponContents .button,.oracleContents .button,input,textarea,select,.topBanner img{border:#ccc 1px solid;}
+.news li,.readMore,.news .pagination,.shopListContents li,.menuContents li,.menuContents .freeText,.menuDetail li,.menuDetail .freeText,dl,.shopListAllContents li,.shopListDetail li,.shopListDetail,.companyContents tr,.shopContents tr{border-bottom:#ccc 1px solid;}
+.newsDetail .pagination{border-bottom:#ccc 1px solid;border-top:#ccc 1px solid;}
+.newsDetail .pagination a .old,.news .pagination a .old{background:#f0f0f0 url(../img/ic_keyboard_arrow_right.png) center right no-repeat;color:#333;}
+.newsDetail .pagination a .new,.news .pagination a .new{background:#f0f0f0 url(../img/ic_keyboard_arrow_left.png) center left no-repeat;color:#333;}
+.newsDetail .pagination a .new{border-right:#ccc 1px solid;}
+.entryContents li:nth-child(2n+1){background-color:#f0f0f0;}
+.news .date{color:#aaa;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul,.footerNav li,#footer{border-top:#ccc 1px solid;}*/
+/*黒*/
+/*body{color:#333;}
+#wrapper{background:#f2f2f2;}
+.membership{background-image: linear-gradient(to bottom, #fff 0%, #eee 100%);}
+.membership a{color:#333 !important;}
+.nav span.small{color:#eee;}
+.navTrigger span {background-color:#eee;}
+h1{background:#555;color:#fff;}
+h2{background:#bbb;color:#333;}
+h3{background:#ccc;color:#333;}
+h4{background:#eee;color:#333;}
+.news h2{background:#bbb url(../img/news.png) 10px 8px no-repeat;}
+.footerNav h2{background:#bbb url(../img/footerMenu.png) 10px 12px no-repeat;}
+#header{background:#111;}
+a:link,a:visited {color: #333;text-decoration:none;}
+ul.gblnvList li.close a{background:#777;color:#fff;}
+dd,.companyContents td,.shopContents td{background:#fff;}
+dl,.companyContents th,.shopContents th{background:#ddd;}
+#pageTop a {background-color:#333;}
+.shopSearch,.coupon,.usrContents .square,.shopContents iframe,.shopListContents2 li a,.couponContents .button,.oracleContents .button,input,textarea,select,.topBanner img{border:#ccc 1px solid;}
+.news li,.readMore,.news .pagination,.shopListContents li,.menuContents li,.menuContents .freeText,.menuDetail li,.menuDetail .freeText,dl,.shopListAllContents li,.shopListDetail li,.shopListDetail,.companyContents tr,.shopContents tr{border-bottom:#ccc 1px solid;}
+.newsDetail .pagination{border-bottom:#ccc 1px solid;border-top:#ccc 1px solid;}
+.newsDetail .pagination a .old,.news .pagination a .old{background:#fafafa url(../img/ic_keyboard_arrow_right.png) center right no-repeat;color:#333;}
+.newsDetail .pagination a .new,.news .pagination a .new{background:#fafafa url(../img/ic_keyboard_arrow_left.png) center left no-repeat;color:#333;}
+.newsDetail .pagination a .new{border-right:#ccc 1px solid;}
+.entryContents li:nth-child(2n+1){background-color:#f0f0f0;}
+.news readMore a{color:#333;}
+.news .date{color:#aaa;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul,.footerNav li{border-top:#ccc 1px solid;}
+#footer{background:#111;color:#fff;}*/
+/*ベージュ*/
+body{color:#705941;}
+#wrapper{background:#f2f0e6;}
+#header{background:#f2f0e6;border-bottom:#d9d7ce 1px solid;}
+.membership{background-image: linear-gradient(to bottom, #ff7500 0%, #ff6a00 100%);color:#fff;}
+.nav span.small{color:#ff7500;}
+.navTrigger span {background-color:#ff7500;}
+h1{background:#a8825a;color:#fff;}
+h2{background:#e0dcc5;color:#705941;}
+h3{background:#ebe8db;color:#705941;}
+h4{background:#f7f5ee;color:#705941;}
+dl{background:#f7f5ee;}
+.news h2{background:#e0dcc5 url(../img/news.png) 10px 8px no-repeat;}
+.footerNav h2{background:#e0dcc5 url(../img/footerMenu.png) 10px 12px no-repeat;}
+a:link,a:visited {color: #705941;text-decoration:none;}
+ul.gblnvList li.close a{background:#f2f0e6;color:#705941;}
+dd{background:#fff;}
+dl{background:#f7f1ea;}
+#pageTop a {background-color:#705941;}
+.shopSearch,.coupon,.usrContents .square,.shopContents iframe,.shopListContents2 li a,.couponContents .button,.oracleContents .button,input,textarea,select,.topBanner img{border:#d9d7ce 1px solid;}
+.news li,.readMore,.news .pagination,.shopListContents li,.menuContents li,.menuContents .freeText,.menuDetail li,.menuDetail .freeText,.shopListAllContents li,.shopListDetail li,.shopListDetail,.companyContents tr,.shopContents tr,dl{border-bottom:#d9d7ce 1px solid;}
+.news .pagination a .new{background:#f7f5ee url(../img/ic_keyboard_arrow_left.png) center left no-repeat;}
+.news .pagination a .old{background:#f7f5ee url(../img/ic_keyboard_arrow_right.png) center right no-repeat;}
+.newsDetail .pagination{border-bottom:#d9d7ce 1px solid;border-top:#d9d7ce 1px solid;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul{border-top:#d9d7ce 1px solid;}
+.newsDetail .pagination a .old{background:#f7f5ee url(../img/ic_keyboard_arrow_right.png) center right no-repeat;}
+.newsDetail .pagination a .new{background:#f7f5ee url(../img/ic_keyboard_arrow_left.png) center left no-repeat;border-bottom:#d9d7ce;border-right:#d9d7ce}
+.newsDetail .pagination a .new{border-right:#d9d7ce 1px solid;}
+.entryContents li:nth-child(2n+1){background-color:#f2f0e6;}
+.news readMore a{color:#b28e68;}
+.news .date{color:#b28e68;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul,.footerNav li{border-top:#d9d7ce 1px solid;}
+#footer{background:#f2f0e6;}
+/*緑*/
+/*body{color:#333;}
+#wrapper{background:#f9fcea;}
+.membership{background-image: linear-gradient(to bottom, #fff 0%, #eee 100%);}
+.membership a{color:#333 !important;}
+.nav span.small{color:#eee;}
+.navTrigger span {background-color:#eee;}
+h1{background:#3f650e;color:#fff;}
+h2{background:#d5dd94;color:#333;}
+h3{background:#e6edb1;color:#333;}
+h4{background:#f6fad3;color:#333;}
+.news h2{background:#d5dd94 url(../img/news.png) 10px 8px no-repeat;}
+.footerNav h2{background:#d5dd94 url(../img/footerMenu.png) 10px 12px no-repeat;}
+#header{background:#254919;}
+a:link,a:visited {color: #333;text-decoration:none;}
+ul.gblnvList li.close a{background:#e8efc5;}
+dd{background:#fff;}
+dl{background:#f5f9f0;}
+#pageTop a {background-color:#d5dd94;}
+.shopSearch,.coupon,.usrContents .square,.shopContents iframe,.shopListContents2 li a,.couponContents .button,.oracleContents .button,input,textarea,select,.topBanner img{border:#dce1d5 1px solid;}
+.news li,.readMore,.news .pagination,.shopListContents li,.menuContents li,.menuContents .freeText,.menuDetail li,.menuDetail .freeText,dl,.shopListAllContents li,.shopListAllContents,.shopListDetail li,.shopListDetail,.companyContents tr,.shopContents tr,.companyContents tr,.shopContents tr{border-bottom:#dce1d5 1px solid;}
+.newsDetail .pagination{border-bottom:#dce1d5 1px solid;border-top:#dce1d5 1px solid;}
+.newsDetail .pagination a .old,.news .pagination a .old{background:#f5f9f0 url(../img/ic_keyboard_arrow_right.png) center right no-repeat;color:#333;}
+.newsDetail .pagination a .new,.news .pagination a .new{background:#f5f9f0 url(../img/ic_keyboard_arrow_left.png) center left no-repeat;color:#333;}
+.newsDetail .pagination a .new{border-right:#dce1d5 1px solid;}
+.entryContents li:nth-child(2n+1){background-color:#e5eebb;}
+.news readMore a{color:#333;}
+.news .date{color:#aaa;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul,.footerNav li{border-top:#dce1d5 1px solid;}
+#footer{background:#254919;color:#fff;}*/
+/*赤*/
+/*body{color:#333;}
+#wrapper{background:#fffff3;}
+.membership{background-image: linear-gradient(to bottom, #fff 0%, #eee 100%);}
+.membership a{color:#333 !important;}
+.nav span.small{color:#eee;}
+.navTrigger span {background-color:#eee;}
+h1{background:#de312c;color:#fff;}
+h2{background:#ee655d;color:#111;}
+h3{background:#f57f79;color:#111;}
+h4{background:#fbb3af;color:#111;}
+.news h2{background:#ee655d url(../img/news-w.png) 10px 8px no-repeat;}
+.footerNav h2{background:#ee655d url(../img/footerMenu-w.png) 10px 12px no-repeat;}
+#header{background:#c70702;}
+a:link,a:visited {color: #333;text-decoration:none;}
+ul.gblnvList li.close a{background:#fbb3af;}
+dd,.companyContents td,.shopContents td{background:#fff;}
+dl,.companyContents th,.shopContents th{background:#eee;}
+#pageTop a {background-color:#fbb3af;}
+.shopSearch,.coupon,.usrContents .square,.shopContents iframe,.shopListContents2 li a,.couponContents .button,.oracleContents .button,input,textarea,select,.topBanner img{border:#ccc 1px solid;}
+.news li,.readMore,.news .pagination,.shopListContents li,.menuContents li,.menuContents .freeText,.menuDetail li,.menuDetail .freeText,.shopListAllContents li,.shopListAllContents,.shopListDetail li,.shopListDetail,.companyContents tr,.shopContents tr{border-bottom:#ccc 1px solid;}
+.newsDetail .pagination{border-bottom:#ccc 1px solid;border-top:#ccc 1px solid;}
+.newsDetail .pagination a .old,.news .pagination a .old{background:#eee url(../img/ic_keyboard_arrow_right.png) center right no-repeat;color:#333;}
+.newsDetail .pagination a .new,.news .pagination a .new{background:#eee url(../img/ic_keyboard_arrow_left.png) center left no-repeat;color:#333;}
+.newsDetail .pagination a .new{border-right:#ccc 1px solid;}
+dl{border-bottom:#ccc 1px solid;}
+.entryContents li:nth-child(2n+1){background-color:#f8efee;}
+.news readMore a{color:#333;}
+.news .date{color:#aaa;}
+ul.gblnvList li,.shopListContents ul,.shopListDetail ul,.footerNav li{border-top:#ccc 1px solid;}
+#footer{background:#c70702;color:#fff;}*/
+/*カラー設定終わり*/
+/*common*/
+*{margin:0; padding:0;}
+.clearfix{zoom:1;}
+.clearfix:before, .clearfix:after{content:"";display:table;}
+.clearfix:after {clear:both;}
+img{border:0;max-width:100%;height:auto;}
+ul{list-style-type: none;background:#fff;}
+body{font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic","メイリオ","sans-serif"; line-height:normal; font-size: 100%;}
+#wrapper{max-width:768px;margin:0 auto;}
+.alignleft{float: left;margin: 0 10px 0 0;}
+.alignright{float: right;margin: 0 0 5px 10px;}
+.aligncenter{display: block; margin:0 auto 5px;}
+.freeText a,.otherMenus a,.tel a{color:#ff7500 !important;}
+.tel a{display:block;}
+h1{text-align:center;line-height:40px;font-size:1em;font-weight:500;}
+h2{clear:both;height:38px;line-height:38px;text-align:center;font-size:1em;font-weight:500;}
+h3{clear:both;line-height:38px;height:38px;text-align:center;font-size:1em;font-weight:500;}
+h4{clear:both;line-height:38px;height:38px;text-align:center;font-size:1em;font-weight:500;}
+/*ヘッダー*/
+/*ナビゲーション*/
+.gblnvBox{vertical-align:middle;}
+.gblnvBox a.navTrigger {display:block;}
+.nav{float:right;width:40px;margin:14px 7px 0 10px;}
+.nav span.small{font-size:0.3em;}
+.logo{float:left;width:40%;margin:5px 10px;height:50px;vertical-align:middle;}
+.logo a{vertical-align:middle;height:50px;display:table-cell;}
+.logo img{max-width:100%;max-height:50px;width:auto;height:auto;margin:0;padding:0;display:table-cell;}
+.logo2{height:50px;padding:5px;vertical-align:center;}
+.logo2 img{max-height:100%;}
+.membership{border-radius:5px;line-height:42px;height:42px;vertical-align:middle;text-align:center;width:70px;padding:0 12px;float:right;margin-top:9px;}
+.membership a{display:block;color:#fff;}
+.gblnvBlock{clear:both;background-color: #fff; color: #333;height:auto; display: none;}
+.onanimation{display: block;}
+.navTrigger,.menu-trigger span{display: inline-block;transition: all .4s;box-sizing: border-box;margin-left:7px;}
+.navTrigger{position: relative;width: 23px;height:17px;}
+.navTrigger span {position: absolute;left: 0;width: 100%;height:3px;border-radius: 4px;}
+.navTrigger span:nth-of-type(1) {top: 0;}
+.navTrigger span:nth-of-type(2) {top: 7px;}
+.navTrigger span:nth-of-type(3) {bottom: 0;}
+.navTrigger.active span:nth-of-type(1) {-webkit-transform: translateY(7px) rotate(-45deg);transform:translateY(7px) rotate(-45deg);}
+.navTrigger.active span:nth-of-type(2) {opacity: 0;}
+.navTrigger.active span:nth-of-type(3) {-webkit-transform: translateY(-7px) rotate(45deg);	transform: translateY(-7px) rotate(45deg);}
+.nav{font-size}
+.gblnvblock{display:none;overflow:hidden;}
+.gblnvList{list-style-type: none;padding:0;}
+.gblnvList li{line-height:40px;}
+.gblnvList .c1{text-indent:10px;}
+.gblnvList .c2{text-indent:25px;}
+.gblnvList .c3{text-indent:40px;}
+.gblnvList .c4{text-indent:55px;}
+.gblnvList li a{display:block;text-decoration:none;}
+.gblnvList .close{padding:0;}
+.gblnvList .close a{display:block;text-align:center;}
+/*トップページ*/
+.topContents{clear:both;width:100%;margin:0 auto;}
+.topContents .title{border:none;}
+.topContents .freeText{clear:both;padding:10px;margin-bottom:10px;}
+#image-gallery img{width:100%;height:auto;margin:0;}
+.catchCopy{display:table-cell;padding:10px 10px 15px;}
+.shopSearch{width:46%;float:left;text-align:center;border-radius:3px;margin-left:2.3%;margin-bottom:10px;background:#fff;height:70px;padding:5px 0;}
+.coupon{width:46%;float:right;text-align:center;border-radius:3px;margin-right:2.3%;margin-bottom:10px;background:#fff;height:70px;padding:5px 0;}
+.shopSearch a,.coupon a{display:block;}
+.news{clear:both;margin:0 auto;}
+.news h2{background-size:20px 20px;text-align:left;padding-left:40px;}
+.news li{padding:12px 20px 12px 10px;background:url(../img/ic_keyboard_arrow_right.png) center right no-repeat;background-size:20px 20px;}
+.news .date{display:table-cell;padding-right:10px;vertical-align:middle;}
+.news .new_on{width:40px;height:30px;background:url(../img/new.png) 0 0 no-repeat;background-size:30px 30px;display:table-cell;vertical-align:middle;}
+.news .new_off{display:table-cell;}
+.news .title{display:table-cell;color:#644729;vertical-align:middle;}
+.news li a{display:block;text-decoration:none;}
+.news li span{font-size:0.9em;display:block;}
+.news .readMore{text-align:center;height:57px;line-height:57px;margin-bottom:10px;}
+.news .readMore a{text-decoration:none;display:block;}
+.usrContents{clear:both;width:95%;margin:10px auto;line-height:1.5;}
+.usrContents img{max-width:30%;height:auto;float:left;margin:0 7px 0 0;}
+.usrContents .square{margin-bottom:10px;border-radius:3px;background:#fff;padding:10px;}
+.usrContents .square a{display:block;font-size:0.9em;text-decoration:none;}
+.usrContents .text{color:#ff7500;}
+.usrContents b{font-weight:500;}
+.topBanner img{display:block;margin:0 auto;}
+/*お知らせTOPページ*/
+.news .pagination{clear:both;text-align:center;}
+.news .pagination a .new{float:left;display:block;color:#333;width:33.333%;padding:20px 0;height:30px;line-height:30px;}
+.news .pagination a .old{float:right;display:block;color:#333;width:33.333%;padding:20px 0;height:30px;line-height:30px;}
+.news .pagination .page{float:left;width:33.333%;padding:20px 0;height:30px;line-height:30px;background:#fff;}
+/*お知らせ詳細ページ*/
+.newsDetail{background:#fff;}
+.newsDetail .date{font-size:0.9em;text-align:right;padding:5px 10px 0;}
+.newsDetail .pagination{font-size:0.9em;}
+.newsDetail .pagination{clear:both;text-align:center;margin:10px auto 0;}
+.newsDetail .pagination a .new{float:left;display:block;width:40.8%;padding:30px 4.5%;height:15px;line-height:15px;white-space:nowrap;text-overflow: ellipsis;overflow:hidden;}
+.newsDetail .pagination a .old{float:right;display:block;width:40.8%;padding:30px 4.5%;height:15px;line-height:15px;white-space:nowrap;text-overflow: ellipsis;overflow:hidden;}
+.newsDetail .image{padding:0 10px;}
+.newsDetail img{max-width:100%;max-height:300px;height:auto;margin:5px auto 10px;}
+.newsContents{display:table-cell;padding:10px;}
+/*店舗TOPページ*/
+.shopContents .catchCopy{padding:10px;}
+.shopContents iframe{max-width:100%;margin:0 auto 5px;}
+/*dl,dt,dd{margin:0;padding:0;font-size:0.95em;}
+dl{width:100%;margin:0 auto 0;overflow:hidden;}*/
+.shopContents dl{display:table;width:100%;}
+.shopContents dt{display:table-cell;padding:10px;width:100px;height:100%;text-align:center;vertical-align:middle;}
+.shopContents dd{display:table-cell;padding:10px;height:100%;background:#fff;}
+.shopContents table{border-collapse:collapse;font-size:0.95em;}
+.shopContents th{padding:10px 5px;text-align:center;width:30%;font-weight:500;}
+.shopContents td{padding:10px 5px;}
+/*会社概要ページ*/
+.companyContents dl{display:table;width:100%;}
+.companyContents dt{display:table-cell;padding:10px;width:100px;height:100%;text-align:center;vertical-align:middle;}
+.companyContents dd{display:table-cell;padding:10px;height:100%;background:#fff;}
+/*.companyContents dt{clear:left;float:left;width:30%;text-align:center;padding:10px 0}
+.companyContents dd{margin-left:30%;padding:10px 2%;}*/
+.companyContents table{border-collapse:collapse;font-size:0.95em;}
+.companyContents th{padding:10px 5px;text-align:center;width:30%;font-weight:500;}
+.companyContents td{padding:10px 5px;}
+.companyContents img{margin-bottom:10px;}
+img.shopHeaderImg{max-width:100%;height:auto;display:table-cell;}
+.shopTopImg1{float:left;width:50%;padding:5px 0 15px;}
+.shopTopImg2{float:right:width:50%;padding:5px 0 15px;}
+.shopTopImg1 img,.shopTopImg2 img{max-width:95%;height:auto;}
+.shopContents .freeText{padding:10px;}
+.shopContents .freeText:last-child{margin-bottom:5px;}
+/*店舗一覧ページ*/
+.shopListContents .freeText{padding:10px;}
+.shopListContents li{height:40px;line-height:42px;padding:0 10px;background:url(../img/ic_keyboard_arrow_right.png) center right no-repeat;background-size:20px 20px;}
+.shopListContents li a{display:block;text-decoration:none;}
+/*店舗一覧詳細ページ*/
+.shopListContents2 ul{margin:15px auto;}
+.shopListContents2 li{clear:both;}
+.shopListContents2 li a{display:block;border-radius:3px;width:90%;margin:7px auto 0;padding:10px 3%;background:#fff;}
+.shopListContents2 span{display:block;font-size:0.9em;}
+.shopListContents2 img{max-width:25%;height:auto;float:right;margin-left:10px;}
+/*店舗一覧全店舗を1ページで表示*/
+.shopListAllContents .freeText,.shopListDetail .freeText{padding:10px;}
+.shopListAllContents .shopInfo,.shopListDetail .shopInfo{display:table-cell;vertical-align:middle;padding:10px 20px 10px 0;}
+.shopListAllContents .image,.shopListDetail .image{display:table-cell;vertical-align:middle;padding:10px;width:25%;}
+.shopListAllContents span,.shopListDetail span{display:block;}
+.shopListAllContents a,.shopListDetail a{display:block;}
+.shopListAllContents li:last-child,.shopListDetail li:last-child{border:none;}
+.shopListAllContents img,.shopListDetail img{display:table-cell;}
+.shopListDetail li,.shopListAllContents li{background:url(../img/ic_keyboard_arrow_right.png) center right no-repeat;background-size:20px 20px;}
+/*クーポンページ*/
+.couponContents .upperText{padding:10px;}
+.couponContents .period{padding:20px 2%;width:90%;margin:20px auto;border:#ff7500 1px solid;border-radius:3px;text-align:center;font-size:1.15em;background:#fff;color:#ff7500;}
+.couponContents .detail{width:95%;margin:10px auto;}
+.couponContents .button{width:50%;height:50px;line-height:50px;background-image: linear-gradient(to bottom, #ff7500 0%, #ff5600 100%);text-align:center;border-radius:5px;margin:20px auto 10px;}
+.couponContents .button a{display:block;color:#fff;}
+.couponContents .note{padding:10px;}
+/*メニュートップページ*/
+.menuContents{clear:both;}
+.menuContents li{clear:both;padding:10px;background:url(../img/ic_keyboard_arrow_right.png) center right no-repeat;background-size:20px 20px;}
+.menuContents .image{width:25%;display:table-cell;padding-right:3%;}
+.menuContents img{display:table-cell;}
+.menuContents .menuName{display:table-cell;vertical-align:middle;width:70%;}
+.menuContents ul{background:#fff;}
+.menuContents li a{display:block;text-decoration:none;}
+.menuContents .freeText{padding:10px;}
+/*メニュー詳細ページ*/
+ul.otherMenus li{line-height:40px;text-indent:10px;background:#fff url(../img/ic_keyboard_arrow_right.png) center right no-repeat;background-size:20px 20px;padding:0;}
+ul.otherMenus li a{display:block;}
+.menuDetail .freeText{padding:10px;}
+.menuDetail span{display:block;font-size:0.9em;}
+.menuDetail img{max-width:30%;height:auto;float:right;margin-left:20px;}
+.menuDetail ul{background:#fff;}
+.menuDetail li{padding:15px 10px;}
+/*おみくじページ*/
+.oracleContents .note1{padding:20px 10px;}
+.oracleContents .note2{padding:10px 10px 0 10px;}
+.oracleContents .note3{padding:10px;}
+.oracleContents .note4{padding:10px;}
+.oracleContents .image1{padding-bottom:10px;}
+.oracleContents .image2,.oracleContents .image3{padding-top:20px;}
+.oracleContents img{max-width:95%;height:auto;}
+.oracleContents .button{width:50%;height:50px;line-height:50px;background-image: linear-gradient(to bottom, #ff7500 0%, #ff5600 100%);text-align:center;border-radius:5px;margin:10px auto;}
+.oracleContents .button a{display:block;color:#fff;}
+.oracleContents .exp{padding:15px 10px 5px;}
+/*会員登録*/
+.entryContents{clear:both;width:100%;margin:0 auto;}
+.entryContents form{width:100%;margin:0 auto;font-size:1em;}
+.entryContents p{margin:5px 10px;}
+.entryContents li{padding:10px 10px 15px 10px;}
+label{margin-right:20px;}
+.entryContents span{display:table-cell;font-weight:600;font-size:1em;height:30px;line-height:30px;padding:0 3px 0 0;}
+.entryContents li:nth-child(2n){background-color:#fff;}
+.entryContents .freeText,enquete .freeText{padding:10px;}
+span.necessary{color:red;}
+span.red{display:inline;color:red;}
+input[type="text"],input[type="number"],input[type="date"],input[type="email"],input[type="tel"]{width:96%;height:25px;padding:3px 7px;border-radius:3px;margin-right:3px;}
+select{padding:7px;border-radius:3px;min-width:50%;max-width:100%;}
+input[type="number"]{width:50%;}
+input[type="checkbox"],input[type="radio"]{margin-right:3px;}
+input[type="submit"]{width:96%;height:50px;line-height:50px;background-image: linear-gradient(to bottom, #ff7500 0%, #ff5600 100%);text-align:center;border-radius:5px;color:#fff;font-size:1em;margin:0 auto;}
+textarea{width:96%;max-width:96%;height:100px;padding:5px 7px;border-radius:3px;}
+.submit{text-align:center;}
+label{display:block;}
+/*フリーページ*/
+.freeContents{margin:0 auto;}
+.freeContents .image{display:table-cell;max-width:100%;height:auto;margin-bottom:10px;}
+.freeContents .freeText{padding:10px;background:#fff;}
+/*ページトップへ*/
+#pageTop{position: fixed;bottom: 5px;right: 5px;float:right;}
+#pageTop a{text-decoration: none;opacity:0.8;}
+#pageTop a {display: block;z-index: 999;padding: 5px 3px 0 3px;border-radius: 3px;width: 30px;height:30px;color: #fff;font-weight: bold;text-decoration: none;text-align: center;margin:5px;}
+/*フッター*/
+.footerFreeText{padding:10px;margin:10px 0;}
+.toTop{width:40%;height:40px;line-height:40px;margin:20px auto;text-align:center;}
+.toTop a{display:block;text-decoration:none;border-radius:3px;}
+.footerNav{width:100%;}
+.footerNav h2{background-size:20px 14px;text-align:left;padding-left:40px;}
+.footerNav .c1{ text-indent:10px;line-height:40px;background:#fff url(../img/ic_keyboard_arrow_right.png) top 7pt right no-repeat;background-size:20px 20px;}
+.footerNav .c2{text-indent:25px;line-height:40px;background:#fff url(../img/ic_keyboard_arrow_right.png) top 7pt right no-repeat;background-size:20px 20px;}
+.footerNav .c3{text-indent:40px;line-height:40px;background:#fff url(../img/ic_keyboard_arrow_right.png) top 7pt right no-repeat;background-size:20px 20px;}
+.footerNav .c4{text-indent:55px;line-height:40px;background:#fff url(../img/ic_keyboard_arrow_right.png) top 7pt right no-repeat;background-size:20px 20px;}
+.footerNav a{display:block;}
+#footer{clear:both;width:100%;text-align:center;font-size:0.8em;line-height:1.5em;padding:25px 0;}
+/*スマホ設定 iphone5以下*/
+@media screen and (max-width:320px){
+    .shopSearch,.coupon{font-size:0.9em;}
+}
+/* スマホ iphone 6*/
+@media screen and (min-width:321px){ 
+  
+}
+/* ipad pc設定 */
+@media screen and (min-width:768px){ 
+    #wrapper{border-left:#ccc 1px solid;border-right:#ccc 1px solid;}
+}
+
+
+

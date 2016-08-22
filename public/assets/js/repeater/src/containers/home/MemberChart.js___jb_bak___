@@ -1,0 +1,40 @@
+//var ctx                = require('./$.ctx')
+//  , invoke             = require('./$.invoke')
+//  , html               = require('./$.html')
+//  , cel                = require('./$.dom-create')
+//  , global             = require('./$.global')
+//  , process            = global.process
+//  , setTask            = global.setImmediate
+//  , clearTask          = global.clearImmediate
+//  , MessageChannel     = global.MessageChannel
+//  , counter            = 0
+//  , queue              = {}
+//  , ONREADYSTATECHANGE = 'onreadystatechange'
+//  , defer, channel, port;
+//var run = function(){
+//  var id = +this;
+//  if(queue.hasOwnProperty(id)){
+//    var fn = queue[id];
+//    delete queue[id];
+//    fn();
+//  }
+//};
+//var listner = function(event){
+//  run.call(event.data);
+//};
+//// Node.js 0.9+ & IE10+ has setImmediate, otherwise:
+//if(!setTask || !clearTask){
+//  setTask = function setImmediate(fn){
+//    var args = [], i = 1;
+//    while(arguments.length > i)args.push(arguments[i++]);
+//    queue[++counter] = function(){
+//      invoke(typeof fn == 'function' ? fn : Function(fn), args);
+//    };
+//    defer(counter);
+//    return counter;
+//  };
+//  clearTask = function clearImmediate(id){
+//    delete queue[id];
+//  };
+//  // Node.js 0.8-
+//  if(require('./$.cof
